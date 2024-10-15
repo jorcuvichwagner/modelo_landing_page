@@ -1,0 +1,85 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #2c2222; 
+}
+header {
+    background-color: #007BFF; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
+}
+nav {
+    display: flex; 
+    justify-content: center; 
+    background-color: #0056b3; 
+    padding: 10px; 
+}
+nav a {
+    color: white; 
+    margin: 0 15px; 
+    text-decoration: none; 
+}
+.hero {
+    background-image: url('https://via.placeholder.com/1200x400'); 
+    background-size: cover; 
+    height: 400px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+.container {
+    width: 90%; 
+    max-width: 1200px; 
+    margin: auto; 
+    padding: 20px;
+}
+.section {
+    background-color: white; 
+    margin: 20px 0; 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.servicos {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+.servico {
+    background-color: #425364; 
+    padding: 20px; 
+    border-radius: 5px; 
+    width: 30%; 
+    margin: 10px;
+    text-align: center;
+}
+.time {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap;
+}
+.membros {
+    background-color: #5489be; 
+    padding: 20px; 
+    border-radius: 5px; 
+    width: 200px; 
+    text-align: center; 
+    margin: 10px;
+}
+footer {
+    background-color: #007BFF; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%;
+}
